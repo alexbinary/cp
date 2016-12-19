@@ -1,0 +1,26 @@
+{
+  "name": "alexbinary.cp",
+  "description": "Simple promise-based file and directory copy 📑",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/alexbinary/cp.git",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
+  "license": "MIT",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "testw": "mocha -w"
+  },
+  "devDependencies": {
+    "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
+    "chai": "^3.5.0",
+    "chai-fs": "^1.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "alexbinary.callbackify": "https://github.com/alexbinary/callbackify.git",
+    "alexbinary.mkdirp": "https://github.com/alexbinary/mkdirp.git",
+    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
+    "ncp": "^2.0.0"
+  }
+}
