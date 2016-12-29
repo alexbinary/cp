@@ -2,13 +2,24 @@
 # yarn lockfile v1
 
 
+"@alexbinary/callbackify@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@alexbinary/callbackify/-/callbackify-2.0.2.tgz#dfb7aa31943571e360e567753e68ee3b6a6f2259"
+
+"@alexbinary/mkdirp@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@alexbinary/mkdirp/-/mkdirp-1.0.2.tgz#ac2ea6a019d25cd750e4bd0f441b80069d1b5e1b"
+  dependencies:
+    "@alexbinary/promisify" "^3.0.2"
+    mkdirp "^0.5.1"
+
+"@alexbinary/promisify@^3.0.2", "@alexbinary/promisify@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@alexbinary/promisify/-/promisify-3.0.4.tgz#e35566955cfd0123d8a4cc9352c048557a42b375"
+
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
-
-"alexbinary.callbackify@https://github.com/alexbinary/callbackify.git":
-  version "1.0.0"
-  resolved "https://github.com/alexbinary/callbackify.git#80fd6c8b9e6b46a9f829386ad735a7ede46b91d9"
 
 "alexbinary.fs-sandbox@https://github.com/alexbinary/fs-sandbox.git":
   version "1.0.0"
@@ -18,13 +29,6 @@ abbrev@1, abbrev@1.0.x:
     mkdirp "^0.5.1"
     rimraf "^2.5.4"
     touchp "^0.1.1"
-
-"alexbinary.mkdirp@https://github.com/alexbinary/mkdirp.git":
-  version "1.0.0"
-  resolved "https://github.com/alexbinary/mkdirp.git#450f58a1c2184b616a76f138c5b23da90f3dec12"
-  dependencies:
-    alexbinary.promisify "https://github.com/alexbinary/promisify.git"
-    mkdirp "^0.5.1"
 
 "alexbinary.promisify@https://github.com/alexbinary/promisify.git":
   version "2.0.0"
